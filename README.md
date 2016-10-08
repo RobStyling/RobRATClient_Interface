@@ -1,4 +1,4 @@
-Hello! This is a litte Project i wanted to make a Long time ago! :space_invaders:
+Hello! This is a litte Project i wanted to make a Long time ago! :space_invader:
 
 This is the Interface Trojan Client that can connect to the Trojan Server refrecend here: http://github.com/RobStyling/TroServer_Console
 
