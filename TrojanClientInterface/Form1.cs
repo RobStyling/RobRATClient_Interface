@@ -34,6 +34,8 @@ namespace Trojan_Client__Schöner_
                 button3.Enabled = true;
                 button4.Enabled = true;
                 button5.Enabled = true;
+                button6.Enabled = true;
+                button7.Enabled = true;
             }
             catch
             {
@@ -106,6 +108,16 @@ namespace Trojan_Client__Schöner_
             {
                 MessageBox.Show("Canceld", "Error");
             }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            SendCommand("HIDETASKBAR!!!!---");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            SendCommand("SHOWTASKBAR!!!!---");
         }
     }
 
