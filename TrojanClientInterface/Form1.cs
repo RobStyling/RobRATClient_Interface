@@ -36,6 +36,8 @@ namespace Trojan_Client__Schöner_
                 button5.Enabled = true;
                 button6.Enabled = true;
                 button7.Enabled = true;
+                button8.Enabled = true;
+                button9.Enabled = true;
             }
             catch
             {
@@ -119,6 +121,14 @@ namespace Trojan_Client__Schöner_
         {
             SendCommand("SHOWTASKBAR!!!!---");
         }
+		private void Button8Click(object sender, EventArgs e)
+		{
+			SendCommand("HIDEDESKTOPICONS!!!!---");
+		}
+		private void Button9Click(object sender, EventArgs e)
+		{
+			SendCommand("SHOWDESKTOPICONS!!!!---");
+		}
     }
 
     }

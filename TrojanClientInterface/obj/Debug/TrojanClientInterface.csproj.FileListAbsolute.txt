@@ -11,3 +11,17 @@ C:\Users\Robin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\De
 C:\Users\Robin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.application
 C:\Users\Robin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.exe
 C:\Users\Robin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.pdb
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\bin\Debug\TroClient.exe.config
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\bin\Debug\TroClient.exe.manifest
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\bin\Debug\TroClient.application
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\bin\Debug\TroClient.exe
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\bin\Debug\TroClient.pdb
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TrojanClientInterface.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\Trojan_Client__Schöner_.Form1.resources
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\Tro_Client.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TrojanClientInterface.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.TrustInfo.xml
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.exe.manifest
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.application
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.exe
+C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.pdb
