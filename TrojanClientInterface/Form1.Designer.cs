@@ -38,8 +38,12 @@
         	this.label2 = new System.Windows.Forms.Label();
         	this.tabControl1 = new System.Windows.Forms.TabControl();
         	this.tabPage1 = new System.Windows.Forms.TabPage();
+        	this.button13 = new System.Windows.Forms.Button();
+        	this.button12 = new System.Windows.Forms.Button();
         	this.tabPage2 = new System.Windows.Forms.TabPage();
         	this.button9 = new System.Windows.Forms.Button();
+        	this.button11 = new System.Windows.Forms.Button();
+        	this.button10 = new System.Windows.Forms.Button();
         	this.button8 = new System.Windows.Forms.Button();
         	this.button7 = new System.Windows.Forms.Button();
         	this.button6 = new System.Windows.Forms.Button();
@@ -90,7 +94,7 @@
         	// button3
         	// 
         	this.button3.Enabled = false;
-        	this.button3.Location = new System.Drawing.Point(168, 35);
+        	this.button3.Location = new System.Drawing.Point(168, 6);
         	this.button3.Name = "button3";
         	this.button3.Size = new System.Drawing.Size(156, 23);
         	this.button3.TabIndex = 4;
@@ -142,6 +146,8 @@
         	// 
         	// tabPage1
         	// 
+        	this.tabPage1.Controls.Add(this.button13);
+        	this.tabPage1.Controls.Add(this.button12);
         	this.tabPage1.Controls.Add(this.button2);
         	this.tabPage1.Controls.Add(this.button4);
         	this.tabPage1.Controls.Add(this.button3);
@@ -154,9 +160,33 @@
         	this.tabPage1.Text = "Essentiel";
         	this.tabPage1.UseVisualStyleBackColor = true;
         	// 
+        	// button13
+        	// 
+        	this.button13.Enabled = false;
+        	this.button13.Location = new System.Drawing.Point(168, 35);
+        	this.button13.Name = "button13";
+        	this.button13.Size = new System.Drawing.Size(75, 23);
+        	this.button13.TabIndex = 8;
+        	this.button13.Text = "CMD";
+        	this.button13.UseVisualStyleBackColor = true;
+        	this.button13.Click += new System.EventHandler(this.Button13Click);
+        	// 
+        	// button12
+        	// 
+        	this.button12.Enabled = false;
+        	this.button12.Location = new System.Drawing.Point(249, 35);
+        	this.button12.Name = "button12";
+        	this.button12.Size = new System.Drawing.Size(75, 23);
+        	this.button12.TabIndex = 7;
+        	this.button12.Text = "Logoff";
+        	this.button12.UseVisualStyleBackColor = true;
+        	this.button12.Click += new System.EventHandler(this.Button12Click);
+        	// 
         	// tabPage2
         	// 
         	this.tabPage2.Controls.Add(this.button9);
+        	this.tabPage2.Controls.Add(this.button11);
+        	this.tabPage2.Controls.Add(this.button10);
         	this.tabPage2.Controls.Add(this.button8);
         	this.tabPage2.Controls.Add(this.button7);
         	this.tabPage2.Controls.Add(this.button6);
@@ -178,6 +208,28 @@
         	this.button9.Text = "Show Desktop Icons";
         	this.button9.UseVisualStyleBackColor = true;
         	this.button9.Click += new System.EventHandler(this.Button9Click);
+        	// 
+        	// button11
+        	// 
+        	this.button11.Enabled = true;
+        	this.button11.Location = new System.Drawing.Point(233, 38);
+        	this.button11.Name = "button11";
+        	this.button11.Size = new System.Drawing.Size(95, 26);
+        	this.button11.TabIndex = 1;
+        	this.button11.Text = " Show Desktop";
+        	this.button11.UseVisualStyleBackColor = true;
+        	this.button11.Click += new System.EventHandler(this.Button11Click);
+        	// 
+        	// button10
+        	// 
+        	this.button10.Enabled = true;
+        	this.button10.Location = new System.Drawing.Point(233, 6);
+        	this.button10.Name = "button10";
+        	this.button10.Size = new System.Drawing.Size(95, 26);
+        	this.button10.TabIndex = 1;
+        	this.button10.Text = " Hide Desktop";
+        	this.button10.UseVisualStyleBackColor = true;
+        	this.button10.Click += new System.EventHandler(this.Button10Click);
         	// 
         	// button8
         	// 
@@ -249,6 +301,10 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button12;
     }
 }
 
