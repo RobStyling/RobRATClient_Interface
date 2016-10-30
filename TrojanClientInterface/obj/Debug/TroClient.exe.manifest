@@ -279,14 +279,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TroClient.exe" size="13824">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TroClient.exe" size="15360">
       <assemblyIdentity name="TroClient" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qXD3BVRv3vm+wFUzGuvznGNMsmMFmkXia8JhbfI2SCI=</dsig:DigestValue>
+        <dsig:DigestValue>s/gsU0tN3Ky4u4mr0tvnvY3cFm/IGT5xBeZ2fkg19f4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

