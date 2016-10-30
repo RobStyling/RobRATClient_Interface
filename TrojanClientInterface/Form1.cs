@@ -40,8 +40,6 @@ namespace Trojan_Client__Schöner_
                 button7.Enabled = true;
                 button8.Enabled = true;
                 button9.Enabled = true;
-                button10.Enabled = true;
-                button11.Enabled = true;
                 button12.Enabled = true;
                 button13.Enabled = true;
             }
@@ -137,11 +135,11 @@ namespace Trojan_Client__Schöner_
 		}
 		private void Button10Click(object sender, EventArgs e)
 		{
-			SendCommand("HIDETASKMANAGER!!!!---");
+			SendCommand("!!!!---");
 		}
 		private void Button11Click(object sender, EventArgs e)
 		{
-			SendCommand("SHOWTASKMANAGER!!!!---");
+			SendCommand("!!!!---");
 		}
 		private void Button13Click(object sender, EventArgs e)
 		{
