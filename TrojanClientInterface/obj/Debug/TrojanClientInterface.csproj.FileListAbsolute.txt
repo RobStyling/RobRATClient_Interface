@@ -25,3 +25,4 @@ C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\De
 C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.application
 C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.exe
 C:\Users\Admin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.pdb
+C:\Users\Robin\Documents\GitHub\TroClient_Interface\TrojanClientInterface\obj\Debug\TroClient.TrustInfo.xml
