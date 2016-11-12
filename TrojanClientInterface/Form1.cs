@@ -17,7 +17,7 @@ namespace Trojan_Client__Schöner_
         public static NetworkStream Writer;
         public Form1()
         {
-            InitializeComponent();
+        	InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
