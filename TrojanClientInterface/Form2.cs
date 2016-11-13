@@ -49,9 +49,8 @@ namespace Tro_Client
                     {
                         case "Key":
                             string Key = KeysArray[1];
-                            Key = Key + Key.Trim('\0');
                             GKeys = Key;
-                            this.label1.Text = this.label1.Text + GKeys;
+                            Log(GKeys.Trim(' '), "KEY");
                             break;
                     }
                 }
