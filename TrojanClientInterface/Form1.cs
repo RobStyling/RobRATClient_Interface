@@ -8,6 +8,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tro_Client;
 
 namespace Trojan_Client__Schöner_
 {
@@ -42,6 +43,7 @@ namespace Trojan_Client__Schöner_
                 button9.Enabled = true;
                 button12.Enabled = true;
                 button13.Enabled = true;
+                new Form2().Show();
             }
             catch
             {
